@@ -1,5 +1,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "CMySQL"
+    name: "CMySQL",
+    providers: [.Apt("libmysqlclient-dev")]
 )
